@@ -60,7 +60,7 @@ Duration: 1
 [Google](https://google.com)
 
 ### Images
-![alt-text-here](assets/puppy.jpg)
+![alt-text-here](assets/sample.gif)
 
 <!-- ------------------------ -->
 ## Other Stuff
