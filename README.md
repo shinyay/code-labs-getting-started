@@ -21,6 +21,10 @@ Getting Started with Code Labs Formated Tutorial
 - `sudo apt update`
 - `sudo apt install -y nodejs npm`
 
+#### claat
+- [claat](https://github.com/googlecodelabs/tools/tree/master/claat#install)
+  - `go get github.com/googlecodelabs/tools/claat`
+
 ## Demo
 
 ## Features
