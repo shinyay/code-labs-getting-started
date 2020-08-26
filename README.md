@@ -3,6 +3,10 @@
 Getting Started with Code Labs Formated Tutorial
 
 ## Description
+### Prerequisite
+- Go
+- Node.js v10+ and npm
+- claat (open source command line tool maintained by Google)
 
 ## Demo
 
