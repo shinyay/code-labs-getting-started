@@ -8,6 +8,10 @@ Getting Started with Code Labs Formated Tutorial
 - Node.js v10+ and npm
 - claat (open source command line tool maintained by Google)
 
+#### Go
+- [Download Site](https://golang.org/dl/)
+  - `wget https://golang.org/dl/go1.15.linux-amd64.tar.gz`
+
 ## Demo
 
 ## Features
