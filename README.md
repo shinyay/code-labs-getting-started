@@ -15,7 +15,8 @@ Getting Started with Code Labs Formated Tutorial
   - `set --universal -x GOPATH $HOME/go`
   - `set --universal -x GOROOT /usr/local/go`
   - `vim ~/.config/fish/config.fish`
-    - `$PATH:/usr/local/go/bin`
+    - `$PATH:/usr/local/go/bin` 
+    - `$PATH:$HOME/go/bin`
 
 #### Node.js & npm
 - `sudo apt update`
