@@ -12,7 +12,11 @@ Getting Started with Code Labs Formated Tutorial
 - [Download Site](https://golang.org/dl/)
   - `wget https://golang.org/dl/go1.15.linux-amd64.tar.gz`
   - `sudo tar -C /usr/local -xzf  go1.15.linux-amd64.tar.gz`
-  - `set --universal -x GOPATH /usr/local/go/bin`
+  - `set --universal -x GOPATH $HOME/go`
+  - `set --universal -x GOROOT /usr/local/go`
+  - `vim ~/.config/fish/config.fish`
+    - $PATH:/usr/local/go/bin
+
 
 ## Demo
 
