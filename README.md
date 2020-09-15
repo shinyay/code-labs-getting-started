@@ -34,7 +34,7 @@ $ export PATH=$PATH:$GOROOT/bin
 
 #### claat
 - [claat](https://github.com/googlecodelabs/tools/tree/master/claat#install)
-  - `go get github.com/googlecodelabs/tools/claat`
+  - `go get -u -v -x github.com/googlecodelabs/tools/claat`
 
 ## Demo
 
