@@ -19,6 +19,14 @@ Getting Started with Code Labs Formated Tutorial
   - `vim ~/.config/fish/config.fish`
     - `$PATH:/usr/local/go/bin` 
     - `$PATH:$HOME/go/bin`
+#### Macbook
+```
+$ brew install go
+$ export GOPATH=$HOME/Go
+$ export GOROOT=/usr/local/opt/go/libexec
+$ export PATH=$PATH:$GOPATH/bin
+$ export PATH=$PATH:$GOROOT/bin
+```
 
 #### Node.js & npm
 - `sudo apt update`
