@@ -1,4 +1,4 @@
-FROM golang:1
+FROM golang:1.15.2
 
 # Install claat tool
 # https://github.com/googlecodelabs/tools/blob/master/claat/README.md#install
