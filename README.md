@@ -43,7 +43,11 @@ $ export PATH=$PATH:$GOROOT/bin
   - `go get -u -v -x github.com/googlecodelabs/tools/claat`
 
 ## Demo
-
+### Claat Container
+#### Pull Claat Container Image
+```
+$ docker pull shinyay/claat
+```
 ## Features
 
 - feature:1
