@@ -1,13 +1,13 @@
-FROM golang:1.15.2 AS build
+FROM golang:1
 
 # Install claat tool
 # https://github.com/googlecodelabs/tools/blob/master/claat/README.md#install
-RUN go get github.com/googlecodelabs/tools/claat
+RUN CGO_ENABLED=0 go get github.com/googlecodelabs/tools/claat
 
 FROM scratch
 
 WORKDIR /app
-COPY --from=build /go/bin/claat /claat
+COPY --from=0 /go/bin/claat /claat
 
 EXPOSE 9090
 VOLUME /app
