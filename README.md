@@ -48,6 +48,12 @@ $ export PATH=$PATH:$GOROOT/bin
 ```
 $ docker pull shinyay/claat
 ```
+
+#### Export HTML from Markdown
+```
+$ docker run --rm -it -v (pwd):/app shinyay/claat export <TARGET_MARKDOWN>
+```
+
 ## Features
 
 - feature:1
