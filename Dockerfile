@@ -1,15 +1,8 @@
-FROM golang:1.15.2
+FROM nginx:alpine
+COPY nginx/default.conf /etc/nginx/conf.d/configfile.template
+COPY tools/site/dist /usr/share/nginx/html
 
-# Install claat tool
-# https://github.com/googlecodelabs/tools/blob/master/claat/README.md#install
-RUN CGO_ENABLED=0 go get github.com/googlecodelabs/tools/claat
-
-FROM scratch
-
-WORKDIR /app
-COPY --from=0 /go/bin/claat /claat
-
-EXPOSE 9090
-VOLUME /app
-
-ENTRYPOINT ["/claat"]
+ENV PORT 8080
+ENV HOST 0.0.0.0
+EXPOSE 8080
+CMD sh -c "envsubst '\$PORT' < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
