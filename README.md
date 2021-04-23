@@ -103,6 +103,12 @@ $ gulp serve --codelabs-dir codelabs
 $ gulp serve:dist --codelabs-dir codelabs
 ```
 
+### Containerization
+```
+$ docker build -t shinyay/codelab:0.0.1 .
+$ docker run --rm -d -p 8080:8080 shinyay/codelab:0.0.1
+```
+
 ## Installation
 
 ## Licence
