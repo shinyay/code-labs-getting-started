@@ -3,6 +3,7 @@
 Getting Started with Code Labs Formated Tutorial
 
 ## Description
+Based on the following repository
 - [googlecodelabs/tools](https://github.com/googlecodelabs/tools)
 
 ### Prerequisite
@@ -13,7 +14,10 @@ Getting Started with Code Labs Formated Tutorial
 #### Go
 - [Download Site](https://golang.org/dl/)
 
-#### Linux
+##### Cloud Shell
+- [Google Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=terminal)
+
+##### Linux
 ```
 $ wget https://golang.org/dl/go1.15.linux-amd64.tar.gz
 $ sudo tar -C /usr/local -xzf  go1.15.linux-amd64.tar.gz
@@ -25,7 +29,7 @@ $PATH:/usr/local/go/bin
 $PATH:$HOME/go/bin
 ```
 
-#### Macbook
+##### Macbook
 ```
 $ brew install go
 $ export GOPATH=$HOME/Go
