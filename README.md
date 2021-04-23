@@ -56,6 +56,12 @@ $ export PATH=$PATH:$GOROOT/bin
 ## Requirement
 
 ## Usage
+### Update Summodule
+```
+$ cd tools
+$ git submodule update -i
+```
+
 ### Codelab scenario
 ```
 $ mkdir codelabs
