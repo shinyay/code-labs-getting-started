@@ -95,7 +95,12 @@ $ docker run --rm -it -v (pwd):/app -p 9090:9090 shinyay/claat serve -addr 0.0.0
 
 ### gulp for Codelab site
 ```
-$ gulp serve --codelabs-dir=codelabs
+$ gulp serve --codelabs-dir codelabs
+```
+
+### gulp for distribution
+```
+$ gulp serve:dist --codelabs-dir codelabs
 ```
 
 ## Installation
