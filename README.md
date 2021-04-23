@@ -62,6 +62,14 @@ $ cd tools
 $ git submodule update -i
 ```
 
+### Install gulp
+```
+$ cd site
+$ nvm use v12.22.1
+$ npm install
+$ npm install -g gulp-cli
+```
+
 ### Codelab scenario
 ```
 $ mkdir codelabs
