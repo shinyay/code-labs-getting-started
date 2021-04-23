@@ -47,7 +47,22 @@ $ export PATH=$PATH:$GOROOT/bin
   - `go get -u -v -x github.com/googlecodelabs/tools/claat`
 
 ## Demo
-### Claat Container
+
+## Features
+
+- feature:1
+- feature:2
+
+## Requirement
+
+## Usage
+### Codelab scenario
+```
+$ mkdir codelabs
+$ cd codelabs
+```
+
+### Claat for Codelab scenario
 #### Pull Claat Container Image
 ```
 $ docker pull shinyay/claat
@@ -64,14 +79,10 @@ $ cd <GENERATED_HTML_DIR>
 $ docker run --rm -it -v (pwd):/app -p 9090:9090 shinyay/claat serve -addr 0.0.0.0:9090
 ```
 
-## Features
-
-- feature:1
-- feature:2
-
-## Requirement
-
-## Usage
+### gulp for Codelab site
+```
+$ gulp serve --codelabs-dir=codelabs
+```
 
 ## Installation
 
