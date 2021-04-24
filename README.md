@@ -11,11 +11,14 @@ Based on the following repository
 - Node.js v10+ and npm
 - claat (open source command line tool maintained by Google)
 
+#### Cloud Shell
+Go and Node has been already installed.
+
+- [Google Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=terminal)
+
+
 #### Go
 - [Download Site](https://golang.org/dl/)
-
-##### Cloud Shell
-- [Google Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=terminal)
 
 ##### Linux
 ```
