@@ -2,6 +2,8 @@
 
 Getting Started with Code Labs Formated Tutorial
 
+- [Codepabs Template](https://github.com/shinyay/codelabs-markdown-template)
+
 ## Description
 Based on the following repository
 - [googlecodelabs/tools](https://github.com/googlecodelabs/tools)
