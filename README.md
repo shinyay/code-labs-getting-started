@@ -105,6 +105,9 @@ $ docker run --rm -it -v (pwd):/app -p 9090:9090 shinyay/claat serve -addr 0.0.0
 #### Add custom icon
 ```
 $ cp images/icons/* tools/site/app/images/icons/
+$ echo "@include codelab-card(['spring'], $color-google-blue, 'spring.svg');" >> tools/site/app/styles/_categories.scss
+$ echo "@include codelab-card(['quarkus'], $color-google-blue, 'quarkus.svg');" >> tools/site/app/styles/_categories.scss
+$ echo "@include codelab-card(['micronaut'], $color-google-blue, 'micronaut.svg');" >> tools/site/app/styles/_categories.scss
 ```
 
 #### gulp for Codelab site
