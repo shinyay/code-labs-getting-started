@@ -1,7 +1,7 @@
 FROM nginx:alpine
 COPY nginx/default.conf /etc/nginx/conf.d/configfile.template
 COPY tools/site/dist /usr/share/nginx/html
-COPY tools/site/codelabs /usr/share/nginx/html/codelabs
+COPY tools/site/codelabs/labs /usr/share/nginx/html/codelabs
 ENV PORT 8080
 ENV HOST 0.0.0.0
 EXPOSE 8080
