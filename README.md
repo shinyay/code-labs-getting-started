@@ -99,6 +99,14 @@ $ docker run --rm -it -v (pwd):/app -p 9090:9090 shinyay/claat serve -addr 0.0.0
 ```
 
 ### Codelab site
+- Build Site Distribution
+- Containerize Site Distribution
+
+#### Add custom icon
+```
+$ cp images/icons/* tools/site/app/images/icons/
+```
+
 #### gulp for Codelab site
 ```
 $ gulp serve --codelabs-dir codelabs
