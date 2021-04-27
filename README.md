@@ -117,6 +117,7 @@ $ gulp serve --codelabs-dir codelabs/labs
 
 #### gulp for distribution
 ```
+$ gulp clean
 $ gulp serve:dist --codelabs-dir codelabs/labs
 ```
 
