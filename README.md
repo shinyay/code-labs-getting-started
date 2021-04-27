@@ -98,17 +98,18 @@ $ cd <GENERATED_HTML_DIR>
 $ docker run --rm -it -v (pwd):/app -p 9090:9090 shinyay/claat serve -addr 0.0.0.0:9090
 ```
 
-### gulp for Codelab site
+### Codelab site
+#### gulp for Codelab site
 ```
 $ gulp serve --codelabs-dir codelabs
 ```
 
-### gulp for distribution
+#### gulp for distribution
 ```
 $ gulp serve:dist --codelabs-dir codelabs
 ```
 
-### Containerization
+#### Containerization
 ```
 $ docker build -t shinyay/codelab:0.0.1 .
 $ docker run --rm -d -p 8080:8080 shinyay/codelab:0.0.1
