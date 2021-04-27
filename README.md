@@ -89,7 +89,7 @@ $ docker pull shinyay/claat
 
 #### Export HTML from Markdown
 ```
-$ docker run --rm -it -v (pwd):/app shinyay/claat export <TARGET_MARKDOWN>
+$ docker run --rm -it -v (pwd):/app shinyay/claat export -o labs <TARGET_MARKDOWN>
 ```
 
 #### Serve published HTML
@@ -109,12 +109,12 @@ $ cp images/icons/* tools/site/app/images/icons/
 
 #### gulp for Codelab site
 ```
-$ gulp serve --codelabs-dir codelabs
+$ gulp serve --codelabs-dir codelabs/labs
 ```
 
 #### gulp for distribution
 ```
-$ gulp serve:dist --codelabs-dir codelabs
+$ gulp serve:dist --codelabs-dir codelabs/labs
 ```
 
 #### Containerization
