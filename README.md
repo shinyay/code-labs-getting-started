@@ -102,7 +102,8 @@ $ docker run --rm -it -v (pwd):/app -p 9090:9090 shinyay/claat serve -addr 0.0.0
 - Build Site Distribution
 - Containerize Site Distribution
 
-#### Add custom icon
+#### Customize Codelabs Site
+Icon for Categories
 ```
 $ cp images/icons/* tools/site/app/images/icons/
 $ echo "@include codelab-card(['spring'], $color-google-blue, 'spring.svg');" >> tools/site/app/styles/_categories.scss
