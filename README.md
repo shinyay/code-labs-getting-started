@@ -111,7 +111,13 @@ $ echo "@include codelab-card(['quarkus'], $color-google-blue, 'quarkus.svg');" 
 $ echo "@include codelab-card(['micronaut'], $color-google-blue, 'micronaut.svg');" >> tools/site/app/styles/_categories.scss
 ```
 
-#### gulp for Codelab site
+Views for Tags
+```
+$ cp -pr views/cloudrun tools/site/app/views/
+$ rm -fr tools/site/app/views/vslive
+```
+
+#### gulp for Codelab site/cloudrun 
 ```
 $ gulp serve --codelabs-dir codelabs/labs
 ```
