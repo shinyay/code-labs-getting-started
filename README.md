@@ -119,6 +119,7 @@ $ rm -fr tools/site/app/views/vslive
 
 #### gulp for Codelab site/cloudrun 
 ```
+$ cd tools/site/
 $ gulp serve --codelabs-dir codelabs/labs
 ```
 
