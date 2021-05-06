@@ -1,0 +1,10 @@
+{
+  "title": "Cloud Run",
+  "description": "Tutorials for Cloud Run",
+  "logoUrl": "/cloudrun/cloudrun-logo.png",
+  "tags": ["cloudrun"],
+  "exclude": [
+    ".*-about$",
+    "^lang-.*"
+  ]
+}
