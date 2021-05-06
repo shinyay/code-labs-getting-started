@@ -59,9 +59,6 @@ Duration: 1
 ### Hyperlinking
 - [Youtube - Google Cloud Platform](https://www.youtube.com/c/googlecloudplatform/featured)
 
-### Images
-![alt-text-here](https://www.gstatic.com/devrel-devsite/prod/ve6010286661f973c8a44ecd021b66ac8957259bcceefb6c1b1428b622ca8a90e/codelabs/images/lockup.svg)
-
 <!-- ------------------------ -->
 ## Other Stuff
 Duration: 1
