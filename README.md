@@ -114,8 +114,8 @@ $ echo "@include codelab-card(['micronaut'], $color-google-blue, 'micronaut.svg'
 
 Views for Tags
 ```
-$ cp -pr views/cloudrun tools/site/app/views/
-$ rm -fr tools/site/app/views/vslive
+$ rm -fr tools/site/app/views/*
+$ cp -pr views/*cloudrun* tools/site/app/views/
 ```
 
 #### gulp for Codelab site/cloudrun 
