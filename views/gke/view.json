@@ -1,0 +1,10 @@
+{
+  "title": "GKE",
+  "description": "Tutorials for GKE",
+  "logoUrl": "/gke/gke-logo.png",
+  "tags": ["gke"],
+  "exclude": [
+    ".*-about$",
+    "^lang-.*"
+  ]
+}
